@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-25</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="font-family: 'Times New Roman', Times, serif;">
+    <div style="background: url(background.jpeg);
+                height:350px;
+                background-size:cover;
+                background-repeat: no-repeat;
+                margin-top:-110px;">
+        <div style="padding-top: 120px;padding-left: 70px;">
+            <ul class="nav justify-content-end">
+                <p class="text-light" style="font-size: 50px; margin-right: 550px;">DRAW</p>
+
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Gallery</a>
+                </li>
+                <div class="dropdown">
+                    <button type="button" class="btn dropdown-toggle text-light" data-bs-toggle="dropdown">
+                        Droupdown
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">American</a></li>
+                        <li><a class="dropdown-item" href="#">British</a></li>
+                        <li><a class="dropdown-item" href="#">Colloquial</a></li>
+                    </ul>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid justify-content-end d-flex p-2" style="background-color: rgb(242, 234, 234);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <button class="btn btn-dark rounded-pill mx-2">Home</button> <b class="mt-2"> / </b>
+        <a href="#" class="text-dark text-decoration-none mt-2"><b>Contact Us</b></a>
+
+    </div>
+    <div class="container-fluid p-5">
+        <p class="h1 text-center" style="color: rgb(39, 216, 157);"><b> Contact Us</b></p>
+        <p class="text-dark text-center"> add your caption here</p>
+        <div class="container-fluid d-flex">
+            <div class="container">
+                <p class="h1 ">
+                    Get In <b>Touch</b>
+                <p>12344k ,Avenue,Block-4,Canada</p>
+
+                </p>
+                <p class="border-start border-primary mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Accusamus commodi<br> iste, modilaborum aut
+                    dolorum corporis quod asperiores, et eligendi labore repellendus ipsum perferendi.</p>
+                <p style="height: 250px;width: 470px;border: 3px solid rgb(90, 230, 183);"></p>
+            </div>
+            <div class="container">
+                <form class="py-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group mb-3">
+                                <label for="exampleFormControlInput1"> First Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Johnson"
+                                    style="background-color: rgb(248, 242, 242);border-bottom: 3px solid rgb(90, 235, 186);">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput2"> Last Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Mk"
+                                    style="background-color: rgb(248, 242, 242);border-bottom: 3px solid rgb(90, 235, 186);">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group mb-3">
+                                <label for="exampleFormControlInput1"> Mobile</label>
+                                <input type="phone" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="xxx xxxx"
+                                    style="background-color: rgb(248, 242, 242);border-bottom: 3px solid rgb(90, 235, 186);">
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput2"> Your Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput2"
+                                    placeholder="Example@gmail.com"
+                                    style="background-color: rgb(248, 242, 242); border-bottom: 3px solid rgb(90, 235, 186);">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="exampleFormControlTextarea1"> Ypur Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                            placeholder=" Type Your Message Here" rows="6"
+                            style="background-color: rgb(248, 242, 242);border-bottom: 3px solid rgb(90, 235, 186);"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark text-center w-100">Send
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-5 ">
+        <div class="row">
+            <div class="col-4">
+                <p class="h1">DRAW</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo expedita alias ipsum! Laborum,
+                    aspernatur? Adipisci ipsum.</p>
+                    <p class="h3">Catch on Social</p>
+                    <i class="fa fa-facebook rounded-circle border p-2 text-light" style="width:30px;background-color: rgb(94, 56, 128);"></i>
+                    <i class="fa fa-twitter text-light rounded-circle border p-2 " style="width:30px;background-color: #00a6ff"></i>
+                    <i class="fa fa-instagram text-light rounded-circle border p-2 " style="width:30px;background-color: rgb(248, 18, 214);"></i>
+                    <i class="fa fa-google-plus text-light rounded-circle border p-2 " style="width:30px;background-color: rgb(237, 46, 21);"></i>
+            </div>
+            <div class="col">
+                <p class="h3"><b>Navigation</b>
+                    <p>Home</p>
+                    <p>AboutUs</p>
+                    <p>Gallery</p>
+                    <p>Service</p>
+                    <p>Contact Us</p>
+                </p>
+            </div>
+            <div class="col">
+                <p class="h3">Recent Comments</p>
+                <p style="font-family: cursive;">Petry Curiser</p>
+                <p>sit amet consectetur adipisicing elit</p>
+                <p style="font-family: cursive;">Anna Sithia</p>
+                <p>Explicabo expedita alias ipsum!</p>
+                <p style="font-family: cursive;">Bob Frappies</p>
+                <p>eligendi labore repellendus perferendi.</p>
+            </div>
+            <div class="col">
+                <p class="h3">Phone</p>
+            <p>+123 456 7890 7850</p>
+            <p class="h3">Email</p>
+            <p>info@example.com</p>
+            <p class="h3">Location</p>
+            <p>Honney Avenue,New York City.</p>
+            </div>
+
+        </div>
+    </div>
+    
+    <footer class="bg-dark text-center text-light">
+        <p >&copy; 2019 Draw. All Right reserved | Design by<b> W3layouts.</b></p>
+    </footer>
+</body>
+
+</html>

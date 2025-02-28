@@ -1,0 +1,48 @@
+.box1,.box2,.box3{
+       width: 180px;
+       height: 40px;
+       border: 3px solid black;
+       margin-bottom: 2%;
+       text-align: center;
+       /*position: relative;
+       left: 30%;*/
+}
+.box2{
+    margin-left: 3%;
+    transform: skew(-20deg);
+    
+}
+.box1{
+    transform:skewX(20deg) ;
+}
+#container{
+    display: flex;
+    
+}
+.box3{
+    margin-left: 3%;
+}
+.img1,.img2,.img3{
+    width: 180px;
+       height: 70px;
+       border: 3px solid black;
+       margin-bottom: 2%;
+       text-align: center;
+}
+#container2{
+    display: flex;
+    
+}
+.img2{
+    margin-left: 3%;
+    background-color: orangered;
+    transform: skew(-20deg);
+}
+.img3{
+    margin-left: 3%;
+    background-color: rgb(173, 104, 104);
+}
+.img1{
+    background-color: rgb(255, 208, 0);
+    
+}

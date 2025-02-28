@@ -1,0 +1,60 @@
+*{
+    
+    box-sizing: border-box;
+}
+#container > div{
+     background-color: blue;
+     text-align: center;
+     font-weight: bold; 
+     padding: 55px;
+}
+
+#container{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: white;  
+    gap: 20px;
+    padding: 10px 0;
+    
+
+}
+
+#c1{
+   grid-row-start: 1; 
+   grid-column: 1 / span 2; 
+}
+#c2{
+    grid-row-start: 1; 
+    grid-column: 3 / span 2; 
+}
+#c3{
+    grid-row-start: 1; 
+    grid-column: 5 / span 2; 
+    
+}
+#c4{
+    grid-column: 1 /  span 6;
+}
+#c5{
+    
+    grid-row: 3;
+    grid-column: 1 / span 3;
+}
+#c6{
+    grid-row: 3;
+    grid-column:4 / span 3;
+    
+}
+#c7{
+    
+    grid-row: 4;
+    grid-column: 1 / span 4; 
+}
+#c8{
+    
+    
+}
+#c9{
+    
+    
+}
