@@ -1,0 +1,3 @@
+[submodule "BookStore/BookStore/Frontend"]
+	path = BookStore/BookStore/Frontend
+	url = https://github.com/PoojaBorkar2/bookHaven-Website.git
